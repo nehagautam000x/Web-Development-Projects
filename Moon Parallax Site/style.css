@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Neucha&display=swap');
+html,body{
+    font-family: 'League Spartan', sans-serif;
+    /* font-family: 'Neucha', cursive; */
+    height: 100%;
+    margin: 0;
+    line-height: 1.8em;
+}
+.sec-1{
+    background-image: url(./Images/moon1.png);
+    min-height: 100%; 
+}
+.sec-2{
+    background-image: url(./Images/moon2.png);
+    min-height: 500px; 
+}
+.sec-3{
+    background-image: url(./Images/moon3.jpg);
+    min-height: 500px; 
+}
+.sec-1, .sec-2, .sec-3{
+    position: relative; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    letter-spacing: 8px;
+    background-color: rgba(0, 0, 0, 0.541);
+    /* background-color: rgba(122, 117, 118, 0.205); */
+    
+}
+.center{
+    font-size: 6rem;
+    font-weight: bold;
+    background: url(./Images/sky2.png) 50% 50%;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding: 50px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.light{
+    background-color: #282e34;
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.card img
+{
+    border: 4px solid black;
+    width:300px;
+    border-radius: 1rem;
+}
